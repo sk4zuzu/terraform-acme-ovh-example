@@ -1,0 +1,17 @@
+
+# replace this stuff with real values
+
+TF_VAR_OVH_APPLICATION_KEY    ?= qwertyuiop123456
+TF_VAR_OVH_DNS_ZONE           ?= example.com
+
+TF_VAR_OVH_ENDPOINT           ?= ovh-eu
+TF_VAR_OVH_APPLICATION_SECRET ?= qwertyuiop1234567890asdfghjkl123
+TF_VAR_OVH_CONSUMER_KEY       ?= 1234567890qwertyuiop1234567890as
+
+TF_VAR_OVH_DNS_SUBDOMAIN      ?= whatever
+TF_VAR_OVH_IP_ADDRESS         ?= 10.11.12.13
+
+TF_VAR_ACME_SERVER_URL        ?= https://acme-staging-v02.api.letsencrypt.org/directory
+TF_VAR_ACME_EMAIL_ADDRESS     ?= someone@example.com
+
+# vim:ts=4:sw=4:noet:syn=make:
