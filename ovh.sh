@@ -21,6 +21,10 @@ auth_credential_POST() {
                 },
                 {
                     \"method\": \"GET\",
+                    \"path\": \"/domain/zone/${TF_VAR_OVH_DNS_ZONE}/record\"
+                },
+                {
+                    \"method\": \"GET\",
                     \"path\": \"/domain/zone/${TF_VAR_OVH_DNS_ZONE}/record/*\"
                 },
                 {

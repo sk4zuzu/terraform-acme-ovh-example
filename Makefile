@@ -39,7 +39,7 @@ all: $(TARGETS)
 	@echo
 
 setup:
-	$(SHELL) ovh.sh
+	bash ovh.sh
 
 init: $(TARGETS)
 	terraform init
