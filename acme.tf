@@ -50,6 +50,11 @@ resource "acme_certificate" "certificate" {
   account_key_pem = acme_registration.registration.account_key_pem
   common_name     = "${var.OVH_DNS_SUBDOMAIN}.${var.OVH_DNS_ZONE}"
 
+  recursive_nameservers = [
+    "dns108.ovh.net:53",
+    "ns108.ovh.net:53",
+  ]
+
   dns_challenge {
     provider = "ovh"
 
