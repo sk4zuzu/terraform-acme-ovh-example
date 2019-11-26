@@ -29,7 +29,7 @@ Please keep in mind that POST type calls CANNOT be executed successfully from th
 
 ## 4. TERRAFORM BINARIES
 
-All required terraform binaries are statially linked (standard golang binaries). Installation is automated via make:
+All required terraform binaries are statically linked (standard golang binaries). Installation is automated via make:
 ```
 $ make
 ``` 
